@@ -14,4 +14,3 @@ RUN mkdir /Ipapkorn
 WORKDIR /Ipapkorn
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
-Expose 3306
